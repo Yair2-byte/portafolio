@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable= no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--<link rel="stylesheet" href="/css/reset.css">-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hobbies.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/proyecto.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/formacion.css">
+    <link rel="stylesheet" href="css/sobremi.css">
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <!--Sesion de inicio-->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido__header">
+                    <h1>/BC/</h1>
+                    <nav id="nav" class="">  <!--links del header--> 
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#hobbies" onclick="seleccionar(this)">HOBBIES</a></li>
+                            <li><a href="#skills" onclick="seleccionar(this)">SKILLS</a></li>
+                            <li><a href="#proyectos" onclick="seleccionar(this)">PROYECTOS</a></li>
+                            <li><a href="#formacion" onclick="seleccionar(this)">FORMACIÓN</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO </a></li>
+                        </ul>
+                    </nav>
+                    <!--iconos del menu responsivo-->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="redes">
+                        <a href="https://www.facebook.com/brandon.chaconvenegas/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/brand_chacon/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/brandon-chacon-venegas/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Brandon Chacón Venegas</span>, Desarrollador web</h2>
+                <p class="descripcion">Hola, Mucho gusto conocerle, mi nombre es Brandon Chacón estudiante
+                    en formacion en la Universidad de Colima, estoy a menos de un año de egresar de 
+                    la ingenieria en tecnologias del internet, actualmente estoy en un curso de programacion web enfocado en Front-end.</p>
+                    <a href="https://github.com/Yair2-byte" target="_blank">Ir a Portafolio</a>
+                </div>
+        </div>
+    </section>
+
+    <!--seccion sobre mi-->
+    <section id="sobremi">
+        <div class="contenedor__foto">
+            <img src="img/foto-perfil.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo__seccion">Sobre mi</p>
+            <h1>Hola, soy <span class="span">Brandon Chacón.</span></h1>
+            <h3 class="subtitulo">Desarrollador Web</h3>
+            <p class="parrafo__sobremi">¡Hola! Mucho gusto en conocerle. Mi nombre es Brandon Chacón y soy un estudiante en formación de la Universidad de Colima. Me encuentro a menos de un año de graduarme de la carrera de Ingeniería en Tecnologías del Internet. Actualmente, estoy realizando un curso de programación web centrado en el Front-end.
+            <p class="parrafo__sobremi">Agradezco la oportunidad de presentar mi perfil y quedo a disposición para brindar cualquier información adicional que sea requerida.
+
+                ¡Muchas gracias!</p>
+          <!--para descargar el curriculum-->  <a class="sobremi__cv" href="cv/Curriculum.jpg" download="">Descargar CV</a>
+        </div>
+    </section>
+    <!--seccion hobbies-->
+    <section id="hobbies">
+        <div class="hobbies">
+          <h2 class="titulo__hobbies">Mis Hobbies</h2>
+          <ul class="hobbies__list">
+            <li class="hobby">
+              <img src="img/hobbie-foto.jpg" alt="Hobby 1">
+              <h3>Fotógrafo</h3>
+              <p class="foto__p">Los fines de semana laboro como fotógrafo en fiestas de todo tipo, amo mi trabajo.</p>
+            </li>
+            <li class="hobby">
+              <img src="img/hobbie-halterofilia.jpg" alt="Hobby 2">
+              <h3>Halterofilia</h3>
+              <p>Se trata de un deporte de levantamiento de pesas, me gusta entrenar este deporte me hace muy feliz y me ayuda a desestresarme.</p>
+            </li>
+            <li class="hobby">
+              <img src="img/hobbie-salidas.jpg" alt="Hobby 3">
+              <h3>Salidas con amigos</h3>
+              <p>En mis tiempos de descanso me gusta salir con mis amigos a comer, soy una persona muy social.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      
+
+   <!--Seccion de skills-->
+   <section id="skills">
+   <div class="contenedor-skills">
+    <h3>HABILIDADES </h3>
+    <div class="skill">
+        <div class="info">
+            <p> <span class="lista"> </span>Html & Css</p>
+            <span class="porcentaje">70%</span>
+        </div>
+
+        <div class="barra">
+            <div class="" id="html"></div>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <p> <span class="lista"> </span>Javascript</p>
+            <span class="porcentaje">50%</span>
+        </div>
+
+        <div class="barra">
+            <div class="" id="js"></div>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <p> <span class="lista"> </span>Bases de Datos</p>
+            <span class="porcentaje">60%</span>
+        </div>
+
+        <div class="barra">
+            <div class="" id="bd"></div>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <p> <span class="lista"> </span>Toma de desiciones.</p>
+        </div>
+
+    </div>
+    <div class="skill">
+        <div class="info">
+            <p> <span class="lista"> </span>Habilidades de Comunicación.</p>
+            
+        </div>
+
+    
+    </div>
+    <div class="skill">
+        <div class="info">
+            <p> <span class="lista"> </span>Compañerismo.</p>
+    
+        </div>
+
+    </div>
+    <div class="skill">
+        <div class="info">
+            <p> <span class="lista"> </span>Pensamiento crítico y resolución de problemas.</p>
+           <!-- <span class="porcentaje">60%</span> -->
+        </div>
+    </div>
+</div> 
+    </section>
+    <!--Seccion de portafolio-->
+    <section id="proyectos">
+        <h3 class="titulo__portafolio">MIS PROYECTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                  <a href="https://yair2-byte.github.io/encriptador_responsivo/" target="_blank"> 
+                <img src="img/proyecto-encriptador.png" alt="Proyecto encriptador de texto">
+                </a>
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Encriptador de Texto</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+               <!-- <a href="https://yair2-byte.github.io/encriptador_responsivo/" target="_blank"> -->
+                <img src="img/proyecto-arquitectura-css.png" alt="Proyecto arquitectura Css">
+                
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>En esta pagina se muestra la receta de ciertos platillos</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+              <!--  <a href="https://yair2-byte.github.io/encriptador_responsivo/" target="_blank">-->
+                <img src="img/proyecto-flex-box.png" alt="Proyecto flex-box">
+                
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Es un proyecto donde muestras los cursos que ofrese una empresa</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+               <!-- <a href="https://yair2-byte.github.io/encriptador_responsivo/" target="_blank">-->
+                <img src="img/proyecto-layout.png" alt="Proyecto Layout">
+                
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Pagina web apperia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!--seccion de formacion-->
+      
+        <section id="formacion">
+            <h3 class="titulo__formacion">Formacíon</h3>
+            <div class="contenedor__principal">
+                <div class="contenedor__foto">
+                    <img src="img/formacion-telematica.jpg" alt="">
+                </div>
+                <div class="formacion">
+                    <p class="titulo__formacion">Universidad de Colima</p>
+                    <h1>Ingenieria en <span class="span">Tecnologias del Internet.</span></h1>
+                    <h3 class="subtitulo">alumno de 7to semestre</h3>
+                    <p class="parrafo__formacion"> soy estudiante de la Universidad de Colima. Actualmente, me encuentro cursando el 7º semestre de la carrera de Ingeniería. Durante mi trayectoria académica, he adquirido conocimientos en diversas áreas, entre las cuales se destacan:
+
+                        Base de datos: he trabajado con lenguajes como SQL y MySql, adquiriendo habilidades en el diseño, implementación y gestión de bases de datos.
+                        
+                        Programación orientada a objetos: he desarrollado competencias en la creación de software utilizando este paradigma, comprendiendo la importancia de la modularidad y la reutilización de código.
+                        
+                        Internet of Things (IoT): he explorado los fundamentos y las aplicaciones de IoT, comprendiendo cómo los dispositivos conectados pueden interactuar y comunicarse entre sí para brindar soluciones innovadoras.</p>
+                    <p class="parrafo__formacion">Durante el semestre pasado, tuve la oportunidad de participar en un proyecto en el que desarrollamos una casa inteligente como parte de una materia. Este proyecto nos permitió aplicar los conocimientos teóricos en un entorno práctico, trabajando en equipo para diseñar y construir un sistema que integra diferentes dispositivos y sensores para automatizar y controlar distintos aspectos del hogar.</p>
+                    <!--<a href="https://yair2-byte.github.io/encriptador_responsivo/" target="_blank"> 
+                        <img src="/img/proyecto-encriptador.png" alt="Proyecto encriptador de texto">
+                    </a> -->
+                    <div class="button-container">
+                        <a href="https://www.youtube.com/watch?v=m_r_BG4n-RI" target="_blank" class="youtube-button">Ver video en YouTube</a>
+                      </div>
+                </div>
+            </div>
+            <div class="contenedor__principal">
+                <div class="contenedor__foto">
+                    <img src="img/formacion-alura.png" alt="">
+                </div>
+                <div class="formacion">
+                    <p class="titulo__formacion">Alura_LATAM y Oracle</p>
+                    <h1>Alumno en <span class="span">Programa ONE</span></h1>
+                    <h3 class="subtitulo">Alumno en formacion</h3>
+                    <p class="parrafo__formacion">Actualmente, me encuentro participando en un programa de becas auspiciado
+                            por Alura_LATAM y Oracle, conocido como Alumno ONE. Este programa se enfoca en el desarrollo de habilidades en el 
+                            campo de la programación y me encuentro en la mitad de su duración.
+                            Durante mi participación en este programa, he adquirido un amplio conocimiento en el área del 
+                            desarrollo Front-end. He tenido la oportunidad de aprender y aplicar diversas tecnologías y prácticas 
+                            relevantes en la industria. Estos conocimientos incluyen el uso de lenguajes de marcado como HTML, el 
+                            y la estilización de interfaces utilizando CSS, así como el desarrollo de interacciones dinámicas utilizando JavaScript.</p>
+                        <p class="parrafo__formacion">Además de mi participación en el programa Alumno ONE, he buscado activamente páginas web que me permitan practicar 
+                            y reforzar lo aprendido. A través de la implementación de proyectos y ejercicios prácticos, 
+                            he fortalecido mis habilidades técnicas y he adquirido experiencia práctica en el desarrollo web.</p>
+                            <p class="parrafo__contancias">Constancias y Certificados de participación:</p>
+                            <div class="button-container">
+                                <a href="https://drive.google.com/drive/folders/1d7FGvV9KyArc1x4x9Yj01004Ca1TT3dA" target="_blank" class="onedrive-button">Acceder a la carpeta en OneDrive</a>
+                              </div>
+                        </div>
+            </div>
+        </section>
+        
+
+        </section>
+        <!--Seccion de contacto-->
+        <section id="contacto">
+            <h3 class="titulo__contacto">Contactame</h3>
+            <div class="contenedor__form">
+                <form action="">
+                    <div class="fila mitad">
+                        <input type="text" placeholder="Nombre Completo" class="input__mitad">
+                        <input type="text" placeholder="Direccion Email" class="input__mitad">
+                    </div>
+                    <div class="fila">
+                        <input type="text" placeholder="Tema..." class="input__full">
+                    </div>
+                    <div class="fila">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje" class="input__full"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar Mensaje" class="btn__enviar">
+                    <!--poner el boton de enviar correo-->
+                </form>
+            </div>
+        </section>
+
+        <!--Seccion footer-->
+        <footer>
+            <p>Todos los derechos reservados - 2023</p>
+            <div class="redes">
+                <a href="https://www.facebook.com/brandon.chaconvenegas/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/brand_chacon/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/brandon-chacon-venegas/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+</body>
+</html>

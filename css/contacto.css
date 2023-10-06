@@ -1,0 +1,88 @@
+/*seccion de contacto*/
+#contacto{
+    padding: 100px 15px;
+}
+
+#contacto .titulo__contacto{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+#contacto .contenedor__form{
+    max-width: 1100px;
+    margin: auto;
+}
+
+#contacto .contenedor__form .fila {
+    margin-bottom: 15px;
+}
+
+#contacto .contenedor__form .mitad{
+    display: flex;
+    justify-content: space-between;
+}   
+
+#contacto .contenedor__form input,
+#contacto .contenedor__form textarea {
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid #919191;
+}
+
+#contacto .contenedor__form .mitad input{
+    width: 48%;
+}
+
+#contacto .contenedor__form .input__full{
+    width: 100%;
+}
+
+#contacto .btn__enviar{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#contacto .btn__enviar:hover {
+    background-color: #FF5500;
+    color: #fff;
+}
+
+
+/* Estilos responsive */
+@media only screen and (max-width: 768px) {
+    /* Ajustar el tamaño de los inputs y textarea en dispositivos móviles */
+    #contacto .contenedor__form input,
+    #contacto .contenedor__form textarea {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /* Hacer que los campos en mitad se muestren uno debajo del otro en dispositivos móviles */
+    #contacto .contenedor__form .mitad {
+        flex-direction: column;
+    }
+
+    /* Ajustar el ancho de los campos en mitad en dispositivos móviles */
+    #contacto .contenedor__form .mitad input {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
