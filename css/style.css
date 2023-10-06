@@ -194,6 +194,7 @@ html{
 #icono-nav {
     position: absolute;
     right: 0;
+    padding: 20px;
     display: block;
     color: white;
     }
